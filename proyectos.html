@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilosEjemplo3.css">
+    <title>Proyectos</title>
+</head>
+
+<body>
+    <header class="encabezado">
+        <nav class="menu">
+            <h1>Titulo</h1>
+            <ul class="enlaces">
+                <!-- Unorder List | ul -->
+                <li class="menuItem">
+                    <a href="./index.html">
+                        <div> Inicio </div>
+                    </a>
+                </li>
+                <!-- List Item | li -->
+                <li class="menuItem">
+                    <a href="./formacion.html">
+                        <div>Formación</div>
+                    </a>
+                </li>
+                <li class="menuItem">
+                    <a href="./proyectos.html">
+                        <div>Proyectos</div>
+                    </a>
+                </li>
+                <li class="menuItem">
+                    <a href="./contacto.html">
+                        <div>Contacto</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contenido">
+        <center>
+            <h1> Mis proyectos </h1>
+    
+        </center>
+        <form class="formulario" action="confirmacion.html" method="get">
+            <br> Nombre de Proyecto : <input class="inombre" type="text" name="nombreUsuario" required="true">
+            <br> Tipo de Proyecto   : <input class ="inombre" type="text" name="asuntoMensaje" required="true">
+            
+            <br> Adjuntar Proyecto: <input type="file" class="Adjuntar" name="archivoSeleccionado" ><br>
+            <br> Descripcion del proyecto: <br><textarea name="" class="cuadroTexto" cols="100" rows="10"></textarea>
+
+            
+
+            <br> <input type="button" class="botones" value="Accion personalizada" onclick="">
+            <br> <input type="submit"  class ="botones" value="Enviar datos del formulario">
+            <br> <input type="reset" class="botones" value="Limpiar formulario">
+
+        </form>
+
+    </div>
+    
+    
+</body>
+
+</html>
